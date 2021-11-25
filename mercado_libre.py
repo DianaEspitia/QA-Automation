@@ -14,4 +14,10 @@ driver.get("https://www.mercadolibre.com.co/") #Abrir página de mercado libre
 barra = driver.find_element_by_xpath('/html/body/header/div/form/input') #Identificar el elemento (barra de búsqueda)
 barra.send_keys('Kit Lettering') #Artículos que deseamos buscar
 barra.send_keys(Keys.ENTER) #Enter para buscar 
+
+articulo = driver.find_element_by_xpath('//*[@id="root-app"]/div/div/section/ol/li[1]/div/div/div[2]/div[1]/a[1]/h2')
+articulo.click()
+
+carrito = driver.find_element_by_xpath('//*[@id="root-app"]/div/div[3]/div/div[1]/div/div[1]/div/div[8]/form/div/button[2]/span')
+
 time.sleep(2)
