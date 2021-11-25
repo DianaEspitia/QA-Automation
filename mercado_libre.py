@@ -15,9 +15,9 @@ barra = driver.find_element_by_xpath('/html/body/header/div/form/input') #Identi
 barra.send_keys('Kit Lettering') #Artículos que deseamos buscar
 barra.send_keys(Keys.ENTER) #Enter para buscar 
 
-articulo = driver.find_element_by_xpath('//*[@id="root-app"]/div/div/section/ol/li[1]/div/div/div[2]/div[1]/a[1]/h2')
+articulo = driver.find_element_by_xpath('//*[@id="root-app"]/div/div/section/ol/li[3]/div/div/div[1]/a/div/div/div/div/div/img')
 articulo.click()
 
-carrito = driver.find_element_by_xpath('//*[@id="root-app"]/div/div[3]/div/div[1]/div/div[1]/div/div[8]/form/div/button[2]/span')
-
+agregar = driver.find_element_by_xpath('//*[@id="root-app"]/div/div[3]/div/div[1]/div/div[1]/div/div[8]/form/div/button[2]')
+#agregar.click()
 time.sleep(2)
