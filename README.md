@@ -19,7 +19,7 @@
    * Identificar el artículo que desea agregar al carrito de compras.
    * Seleccionar el artículo que desea agregar al carrito de compras.
    * Identificar el botón que agregar el artículo al carrito de compras.
-   * Dar click en el botón del carrito de compras.
+   * Dar click en el botón para agregar el artículo al carrito de compras.
    * Identificar elemento carrito de compras.
    * Dar click en el botón del carrito de compras.
    * Verificar que el artículo agregado está en el carrito de compras.
