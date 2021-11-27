@@ -6,12 +6,10 @@
 
 ## Prueba de Amazon en Chrome y Firefox
 1. ```Objetivo```: Verificar las funciones de búsqueda, selección de artículos y visualización del carrito de compras en el sitio web de Amazon.
-<br />
 
 2. ```Pre-requisitos```:
    * Tener instalados los navegadores Google Chrome y Firefox.
-   <br />
-   
+  
 3. ```Pasos```:
    * Seleccionar el navegador que desea utilizar.
    * Abrir el navegador.
