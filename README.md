@@ -14,8 +14,12 @@
    * Abrir el navegador.
    * Abrir la página de amazon https://www.amazon.com/-/es/.
    * Identificar la barra de búsqueda.
-   * Indicar el artículo que se desea buscar (Ejemplo: ```ropa nasa```).
+   * Escribir el artículo que se desea buscar (Ejemplo: ```ropa nasa```).
    * Presionar Enter.
+   * Identificar el artículo que desea agregar al carrito de compras.
    * Seleccionar el artículo que desea agregar al carrito de compras.
+   * Identificar el botón que agregar el artículo al carrito de compras.
+   * Dar click en el botón del carrito de compras.
+   * Identificar elemento carrito de compras.
    * Dar click en el botón del carrito de compras.
    * Verificar que el artículo agregado está en el carrito de compras.
