@@ -13,6 +13,9 @@ if buscador == 1:
     driver = webdriver.Chrome('C:/Users/DianaEspitiaTorres/Downloads/chromedriver/chromedriver.exe')
 elif buscador == 2:
     driver = webdriver.Firefox()
+else:
+    print('Ingresó un valor incorrecto')
+    exit()
 
 driver.get('https://www.amazon.com/-/es/') #Abrir página de Amazon
 
@@ -33,3 +36,9 @@ agregar = driver.find_element_by_xpath('//*[@id="add-to-cart-button"]')
 time.sleep(1)
 agregar.click()
 time.sleep(1)
+
+#Ver carrito
+carrito = driver.find_element_by_xpath('//*[@id="hlb-view-cart-announce"]')
+time.sleep(1)
+carrito.click()
+time.sleep(2)
