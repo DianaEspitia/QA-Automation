@@ -27,7 +27,7 @@ barra = driver.find_element_by_xpath('//*[@id="twotabsearchtextbox"]')
 barra.send_keys('ropa nasa')
 barra.send_keys(Keys.ENTER)
 
-##Espera 
+#Espera 
 wait = WebDriverWait(driver,10)
 articulo1 = wait.until(ec.visibility_of_element_located((By.XPATH, '//*[@id="search"]/div[1]/div[1]/div/span[3]/div[2]/div[2]/div/span/div/div/div/div/span/a/div/img')))
 
@@ -35,13 +35,13 @@ articulo1 = wait.until(ec.visibility_of_element_located((By.XPATH, '//*[@id="sea
 articulo = driver.find_element_by_xpath('//*[@id="search"]/div[1]/div[1]/div/span[3]/div[2]/div[2]/div/span/div/div/div/div/span/a/div/img')
 articulo.click()
 
-articulo1 = wait.until(ec.visibility_of_element_located((By.XPATH, '//*[@id="add-to-cart-button"]'))) ##Espera 
+articulo1 = wait.until(ec.visibility_of_element_located((By.XPATH, '//*[@id="add-to-cart-button"]'))) #Espera 
 
 #Agregar artículo al carrito de compras
 agregar = driver.find_element_by_xpath('//*[@id="add-to-cart-button"]') 
 agregar.click()
 
-articulo1 = wait.until(ec.visibility_of_element_located((By.XPATH, '//*[@id="hlb-view-cart-announce"]'))) ##Espera 
+articulo1 = wait.until(ec.visibility_of_element_located((By.XPATH, '//*[@id="hlb-view-cart-announce"]'))) #Espera 
 
 #Ver carrito
 carrito = driver.find_element_by_xpath('//*[@id="hlb-view-cart-announce"]')
